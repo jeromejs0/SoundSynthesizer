@@ -1,0 +1,28 @@
+﻿  main.cpp
+D:\My projects\Visual Studio prj\SoundSynthesiser\SoundSynthesiser\olcNoiseMaker.h(106,18): warning C4244: 'initializing': conversion from '__int64' to 'int', possible loss of data
+  (compiling source file 'main.cpp')
+      D:\My projects\Visual Studio prj\SoundSynthesiser\SoundSynthesiser\olcNoiseMaker.h(106,18):
+      the template instantiation context (the oldest one first) is
+          D:\My projects\Visual Studio prj\SoundSynthesiser\SoundSynthesiser\main.cpp(26,50):
+          see reference to class template instantiation 'olcNoiseMaker<short>' being compiled
+          D:\My projects\Visual Studio prj\SoundSynthesiser\SoundSynthesiser\olcNoiseMaker.h(86,7):
+          while compiling class template member function 'bool olcNoiseMaker<short>::Create(std::wstring,unsigned int,unsigned int,unsigned int,unsigned int)'
+              D:\My projects\Visual Studio prj\SoundSynthesiser\SoundSynthesiser\olcNoiseMaker.h(78,9):
+              see the first reference to 'olcNoiseMaker<short>::Create' in 'olcNoiseMaker<short>::olcNoiseMaker'
+              D:\My projects\Visual Studio prj\SoundSynthesiser\SoundSynthesiser\main.cpp(42,28):
+              see the first reference to 'olcNoiseMaker<short>::olcNoiseMaker' in 'main'
+  
+D:\My projects\Visual Studio prj\SoundSynthesiser\SoundSynthesiser\olcNoiseMaker.h(234,4): warning C4312: 'type cast': conversion from 'DWORD' to 'olcNoiseMaker<short> *' of greater size
+  (compiling source file 'main.cpp')
+      D:\My projects\Visual Studio prj\SoundSynthesiser\SoundSynthesiser\olcNoiseMaker.h(234,4):
+      the template instantiation context (the oldest one first) is
+          D:\My projects\Visual Studio prj\SoundSynthesiser\SoundSynthesiser\olcNoiseMaker.h(232,23):
+          while compiling class template member function 'void olcNoiseMaker<short>::waveOutProcWrap(HWAVEOUT,UINT,DWORD,DWORD,DWORD)'
+              D:\My projects\Visual Studio prj\SoundSynthesiser\SoundSynthesiser\olcNoiseMaker.h(117,4):
+              see the first reference to 'olcNoiseMaker<short>::waveOutProcWrap' in 'olcNoiseMaker<short>::Create'
+              D:\My projects\Visual Studio prj\SoundSynthesiser\SoundSynthesiser\olcNoiseMaker.h(78,9):
+              see the first reference to 'olcNoiseMaker<short>::Create' in 'olcNoiseMaker<short>::olcNoiseMaker'
+              D:\My projects\Visual Studio prj\SoundSynthesiser\SoundSynthesiser\main.cpp(42,28):
+              see the first reference to 'olcNoiseMaker<short>::olcNoiseMaker' in 'main'
+  
+  SoundSynthesiser.vcxproj -> D:\My projects\Visual Studio prj\SoundSynthesiser\x64\Debug\SoundSynthesiser.exe
